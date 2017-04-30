@@ -1,0 +1,34 @@
+{
+  "name": "react-ace",
+  "version": "0.0.1",
+  "description": "A react wrapper for the ace editor",
+  "main": "./dist/index.js",
+  "dependencies": {
+    "prop-types": "^15.5.8",
+    "react": "^15.5.4"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1"
+  },
+  "scripts": {
+    "build": "babel src --presets babel-preset-es2015 --out-dir dist",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chunsli/react-ace-editor.git"
+  },
+  "keywords": [
+    "react",
+    "ace",
+    "code",
+    "editor"
+  ],
+  "author": "Matt Li",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chunsli/react-ace-editor/issues"
+  },
+  "homepage": "https://github.com/chunsli/react-ace-editor#readme"
+}
