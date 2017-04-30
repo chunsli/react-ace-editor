@@ -1,6 +1,6 @@
 {
-  "name": "react-ace",
-  "version": "0.0.1",
+  "name": "react-ace-editor",
+  "version": "0.0.2",
   "description": "A react wrapper for the ace editor",
   "main": "./dist/index.js",
   "dependencies": {
