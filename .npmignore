@@ -1,2 +1,12 @@
-src
-.idea
+# ignore git
+.git/
+.gitignore
+
+# ignore coverage report
+coverage/
+
+# node modules
+node_modules/
+
+# source
+src/
