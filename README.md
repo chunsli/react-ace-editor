@@ -17,7 +17,7 @@ import ReactAce from 'react-ace-editor';
 import React, { Component } from 'react';
 
 class CodeEditor extends Component {
-  contructor() {
+  constructor() {
     super();
     this.onChange = this.onChange.bind(this);
   }
